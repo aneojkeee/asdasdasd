@@ -1,0 +1,3 @@
+requests
+gamepy
+crypto-watcher
