@@ -6,11 +6,11 @@ tc = time.strftime("%H.%M.%S")
 
 print("Local Date: ", tc + " " + dt, "\n")
 
-import salary
+from application import salary
 
 print("Module salary was imported", "\n")
 
-import people
+from application.db import people
 
 print("Module people was imported", "\n")
 
